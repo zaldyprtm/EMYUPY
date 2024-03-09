@@ -12,7 +12,7 @@ def menu():
     if user_option == 1:
         mu.start()
     elif user_option == 2:
-        warung.main()
+        warung.mulai()
         
     elif user_option == 3:
         suhu.start()

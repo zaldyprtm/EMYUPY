@@ -26,7 +26,7 @@ def pesan_makanan(makanan):
         print("Maaf, makanan yang Anda pesan tidak tersedia saat ini.")
 
 # Main program
-def main():
+def mulai():
     print("Selamat datang di Warung Sederhana!")
     while True:
         print("\nSilakan pilih menu:")
@@ -42,11 +42,11 @@ def main():
             pesan_makanan(makanan)
         elif pilihan == "3":
             print("Terima kasih telah mengunjungi Warung Sederhana!")
-            main.menu()
+            main.main()
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
 
 
 
 if __name__ == "__main__":
-    main()
+    mulai()
