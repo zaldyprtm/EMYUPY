@@ -10,7 +10,7 @@ def menu():
     if user_option == 1:
         mu.start()
     elif user_option == 2:
-        warung.start()
+        warung.main()
         
     elif user_option == 3:
         exit_program()
