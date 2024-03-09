@@ -1,5 +1,5 @@
 # Program Warung Sederhana
-
+import main
 # Inisialisasi variabel untuk menyimpan stok makanan
 stok_makanan = {
     "nasi goreng": 10,
@@ -42,9 +42,11 @@ def main():
             pesan_makanan(makanan)
         elif pilihan == "3":
             print("Terima kasih telah mengunjungi Warung Sederhana!")
-            break
+            main.menu()
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
+
+
 
 if __name__ == "__main__":
     main()
