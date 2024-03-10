@@ -22,10 +22,11 @@ def menu():
     elif user_option == 4:
         about.about()
         
-    elif user_option == 5:
-        exit
-    else:
-      print("silakan pilih angka yang ada di menu!")
+    else: 
+        exit()
+        
+    # else:
+    #   print("silakan pilih angka yang ada di menu!")
     
 
 def main():

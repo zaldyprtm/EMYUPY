@@ -1,6 +1,4 @@
-
 import main
-
 
 def about():
     print('\nSelamat datang di Program MuzalPra untuk pembelajaran pemrograman Python')
@@ -12,7 +10,7 @@ def about():
             main.main()
 
         else:
-            print('Pilihan tidak valid. Silakan coba lagi.')
+            print(f'invalid number')
 
 
 if __name__ == '__main__':
