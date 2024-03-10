@@ -1,6 +1,8 @@
 
+import main
 
-def utama():
+
+def about():
     print('\nSelamat datang di Program MuzalPra untuk pembelajaran pemrograman Python')
     while True:
         print('1. Kembali')
@@ -14,4 +16,4 @@ def utama():
 
 
 if __name__ == '__main__':
-    utama()
+    about()

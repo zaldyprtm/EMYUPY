@@ -1,27 +1,29 @@
 from games import mu
+from games import rabbit
 from libs import welcome_message, exit_program
 from tools import warung
 from tools import suhu
+import kasir
 import libs
 import about
 
 def menu():
-    user_option = int(input(f'silahkan pilih menu program: \n1. Games\n2. Warung\n3. Suhu converter \n4. About \n5. Keluar '))
+    user_option = int(input(f'silahkan pilih menu program:\n \n1. Games\n2. Warung\n3. Suhu converter \n4. About \n5. Keluar \n\nMasukan pilihan anda: '))
     
 
     if user_option == 1:
-        mu.start()
+        mu.ready()
     elif user_option == 2:
-        warung.mulai()
+        kasir.kasir()
         
     elif user_option == 3:
-        suhu.start()
+        suhu.suhu()
         
     elif user_option == 4:
-        about.utama()
+        about.about()
         
     elif user_option == 5:
-        exit_program()
+        exit
     else:
       print("silakan pilih angka yang ada di menu!")
     
